@@ -42,9 +42,9 @@ const Body = () => {
   //   return <Shimmer/>
   // }
 
-  return listOfRestaurant.length === 0 ? (
+  return listOfRestaurant.length === 0 ? 
     <Shimmer />
-  ) : (
+   : (
     <div className="body">
       <div className="filter flex items-center">
         <div className="search flex m-1 p-4 w-auto ">
@@ -73,7 +73,7 @@ const Body = () => {
         <div>
         <button
 
-          className="filter-btn bg-yellow-500 text-white py-1 px-4 m-1 rounded rounded-md"
+          className="filter-btn bg-yellow-500 text-white py-1 px-4 m-1 rounded-md"
           onClick={() => {
             let filteredData = listOfRestaurant.filter(
               (res) => res.info.avgRating > 4
