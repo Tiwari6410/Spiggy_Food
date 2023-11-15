@@ -1,0 +1,138 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 3px 5px black;
+  border-bottom: 1px solid grey;
+}
+
+.logo {
+  width: 100px;
+  height: 80px;
+}
+.nav-items > ul {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  padding: 1px 30px;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+}
+
+.res-card {
+  width: 200px;
+  height: 370px;
+  border-radius: 2px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.Search {
+  /* margin:10px; */
+  padding: 10px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.filter-btn {
+  margin: 15px 10px;
+  padding: 2px 5px;
+  font-weight: 300;
+}
+
+.User_card {
+  height: 300px;
+  width: 300px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+
+.res-container a:any-link {
+  text-decoration: none;
+  color: black;
+}
+
+/* ********************************************HEADER  */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 768px;
+}
+
+/* ********************RESTAURANT mENU */
+
+.loginbtn {
+  height: 40px;
+  width: 90px;
+  padding: 10px;
+  background: linear-gradient(to right, black, rgb(105, 2, 2));
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.loginbtn:hover {
+  height: 40px;
+  width: 90px;
+  padding: 10px;
+
+  background: linear-gradient(to right, black, rgb(47, 2, 2));
+  color: white;
+  font-weight: 400;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.Menudetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 19rem;
+  text-wrap: wrap;
+}
+
+/* ************************************SHIMMER UI  */
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.card {
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+  margin: 5px;
+}
