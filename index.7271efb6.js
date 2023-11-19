@@ -36477,7 +36477,7 @@ const Error = ()=>{
     const err = (0, _reactRouterDom.useRouteError)();
     console.log(err);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container flex justify-center items-center",
+        className: "container flex justify-center items-center bg-slate-25",
         "w-auto": true,
         style: {
             height: "768px"
@@ -36495,29 +36495,40 @@ const Error = ()=>{
                     lineNumber: 10,
                     columnNumber: 13
                 }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Opps"
-                }, void 0, false, {
-                    fileName: "src/Component/Error.jsx",
-                    lineNumber: 11,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "You went something wrong.........\uD83D\uDE80"
-                }, void 0, false, {
-                    fileName: "src/Component/Error.jsx",
-                    lineNumber: 12,
-                    columnNumber: 13
-                }, undefined),
-                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "text-center",
                     children: [
-                        err.status,
-                        ":",
-                        err.statusText
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "font-bold text-3xl mb-3",
+                            children: "Opps"
+                        }, void 0, false, {
+                            fileName: "src/Component/Error.jsx",
+                            lineNumber: 12,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                            className: "",
+                            children: "You went something wrong.........\uD83D\uDE80"
+                        }, void 0, false, {
+                            fileName: "src/Component/Error.jsx",
+                            lineNumber: 13,
+                            columnNumber: 13
+                        }, undefined),
+                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                            children: [
+                                err.status,
+                                ":",
+                                err.statusText
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/Component/Error.jsx",
+                            lineNumber: 14,
+                            columnNumber: 13
+                        }, undefined)
                     ]
                 }, void 0, true, {
                     fileName: "src/Component/Error.jsx",
-                    lineNumber: 13,
+                    lineNumber: 11,
                     columnNumber: 13
                 }, undefined)
             ]
