@@ -36477,7 +36477,7 @@ const Error = ()=>{
     const err = (0, _reactRouterDom.useRouteError)();
     console.log(err);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-        className: "container flex justify-center items-center bg-slate-100",
+        className: "container flex justify-center items-center",
         "w-auto": true,
         style: {
             height: "768px"
@@ -36486,7 +36486,7 @@ const Error = ()=>{
             className: "center",
             children: [
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                    src: "https://i.gifer.com/Qw5v.gif",
+                    src: "https://i.pinimg.com/originals/c5/7f/5a/c57f5af94487bb62711c5adf7926feb2.gif",
                     width: 400,
                     height: 300,
                     alt: ""
