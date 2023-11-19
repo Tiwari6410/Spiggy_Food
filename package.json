@@ -2,13 +2,13 @@
   "homepage": "https://Tiwari6410.github.io/Spiggy_Food",
   "name": "javascriptwitharvindcoder",
   "version": "1.0.0",
-  "description": "",
-  "main": "App.js",
+  "description": "this is a food application like swiggy",
+ 
   "scripts": {
     "start": "parcel index.html",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "build": "parcel build index.html",
+    "deploy": "gh-pages -d dist",
+    "build": "parcel build index.html --public-url ./",
     "test": "jest"
   },
   "keywords": [],

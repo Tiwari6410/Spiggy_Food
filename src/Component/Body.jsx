@@ -48,7 +48,7 @@ const Body = () => {
     <div className="body">
       <div className="filter flex items-center">
         <div className="search flex m-1 p-4 w-auto ">
-          <input className="border border-solid border-black"
+          <input className="border border-solid border-slate-700 rounded-s-md"
             type="text"
             value={searchText}
             onChange={(e) => {
@@ -104,3 +104,8 @@ const Body = () => {
 };
 
 export default Body;
+
+
+
+
+
